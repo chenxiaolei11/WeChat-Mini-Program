@@ -1,0 +1,58 @@
+<view class='imagesize1'>测试题77</view>
+
+<view class='imagesize'>
+<image src="https://yanxuan.nosdn.127.net/7484745b4c06f230b6542ffc59ed26ae.png"  bindload="imageLoad" data-index="{{ index }}" 
+style="width:{{ 250 }}px; height:{{ 170 }}px;"></image>
+</view>
+
+
+
+<view>
+<image class='imagesize2'  src="https://yanxuan.nosdn.127.net/4e9c0110f1a93ae9f0a2e8a2ff4986b6.png" bindtouchend='mytouchend' style='left:{{x}}px;top:{{y}}px;'bindtouchmove='move'   ></image>
+</view>
+
+<view>    
+<image class='imagesize2' src="https://yanxuan.nosdn.127.net/91239eb93e823b394f8945be0deee903.png" bindtouchend='mytouchend' style='left:{{x1}}px;top:{{y1}}px;'bindtouchmove='move1'></image>
+</view>
+
+<view>
+<image class='imagesize2' src="https://yanxuan.nosdn.127.net/8a0a96c2c3b0ac7ba344fafd22e56e3d.png" bindtouchend='mytouchend' style='left:{{x2}}px;top:{{y2}}px;'bindtouchmove='move2'></image>
+</view>
+
+<view>
+<image class='imagesize2' src="https://yanxuan.nosdn.127.net/ce7085a65c8ce6596a646331a9cd5bbf.png" bindtouchend='mytouchend' style='left:{{x3}}px;top:{{y3}}px;'bindtouchmove='move3'></image>
+</view>
+
+<view>
+<image class='imagesize2' src="https://yanxuan.nosdn.127.net/716cd7be99a15e5c2ab4d33c5cd76951.png" bindtouchend='mytouchend' style='left:{{x4}}px;top:{{y4}}px;'bindtouchmove='move4'></image>
+</view>
+
+<view>
+<image class='imagesize2' src="https://yanxuan.nosdn.127.net/4884d79c5f03949ea779e2628e516d04.png" bindtouchend='mytouchend' style='left:{{x5}}px;top:{{y5}}px;'bindtouchmove='move5'></image>
+</view>
+
+<view>
+<image class='imagesize2' src="https://yanxuan.nosdn.127.net/b77a537f994fec87d56a925dafbeaae4.png" bindtouchend='mytouchend' style='left:{{x6}}px;top:{{y6}}px;'bindtouchmove='move6'></image>
+</view>
+<view class='window_view'>
+<navigator url="/pages/85/85" open-type="redirect">
+<view bindtap="jishu">下一题</view>
+</navigator>
+</view>
+
+<view class='er-img1' bindtap="end">
+结束
+</view>
+<view class="er-img">{{timecount}}</view>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+<view class='imagesize1'>练习题6</view>
+
+<view class='imagesize'>
+<image src="/image/2-1.png"  bindload="imageLoad" data-index="{{ index }}" 
+style="width:{{ 240 }}px; height:{{ 160 }}px;"></image>
+</view>
+
+
+
+<view>
+<image class='imagesize2 '  src="/image/2-2-3.png" style='left:{{x}}px;top:{{y}}px;'bindtouchmove='move'   bindtouchend='mytouchend' ></image>
+</view>
+
+<view>    
+<image class='imagesize2' src="/image/2-2-2.png" style='left:{{x1}}px;top:{{y1}}px;'bindtouchmove='move1'  bindtouchend='mytouchend'></image>
+</view>
+
+<view>
+<image class='imagesize2' src="/image/2-2.png" style='left:{{x2}}px;top:{{y2}}px;'bindtouchmove='move2'  bindtouchend='mytouchend'></image>
+</view>
+
+<view class='window_view'>
+<navigator url="/pages/7/7" open-type="redirect">
+<view bindtap="jishu">下一题</view>
+</navigator>
+</view>
+
+<view class='er-img1' bindtap="end">
+结束
+</view>
+<view class="er-img">{{timecount}}</view>
+

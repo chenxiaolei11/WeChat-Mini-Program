@@ -1,0 +1,40 @@
+<view class='imagesize1'>测试题23</view>
+
+<view class='imagesize'>
+<image src="https://yanxuan.nosdn.127.net/4811ca475471d6e27f404e782e506df2.png"  bindload="imageLoad" data-index="{{ index }}" 
+style="width:{{ 240 }}px; height:{{ 160 }}px;"></image>
+</view>
+
+
+
+<view>
+<image class='imagesize2 '  src="https://yanxuan.nosdn.127.net/1d9bd091068064e9f5aac6b89013671b.png" style='left:{{x}}px;top:{{y}}px;'bindtouchmove='move'  bindtouchend='mytouchend' ></image>
+</view>
+
+<view>    
+<image class='imagesize2' src="https://yanxuan.nosdn.127.net/4d9f0ba6fbadf573d425c262d0e033ad.png" style='left:{{x1}}px;top:{{y1}}px;'bindtouchmove='move1' bindtouchend='mytouchend'></image>
+</view>
+
+<view>
+<image class='imagesize4' src="https://yanxuan.nosdn.127.net/4c554c0793c8c64874b0fa1f1e02b943.png" style='left:{{x2}}px;top:{{y2}}px;'bindtouchmove='move2' bindtouchend='mytouchend'></image>
+</view>
+
+<view class='window_view'>
+<navigator url="/pages/31/31" open-type="redirect">
+<view bindtap="jishu">下一题</view>
+</navigator>
+</view>
+
+<view class='er-img1' bindtap="end">
+结束
+</view>
+<view class="er-img">{{timecount}}</view>
+
+
+
+
+
+
+
+
+

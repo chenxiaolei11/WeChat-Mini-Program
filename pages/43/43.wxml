@@ -1,0 +1,45 @@
+<view class='imagesize1'>测试题36</view>
+
+<view class='imagesize'>
+<image src="https://yanxuan.nosdn.127.net/063a65c43b6f35eea5548621ab78c81b.png"  bindload="imageLoad" data-index="{{ index }}" 
+style="width:{{ 240 }}px; height:{{ 160 }}px;"></image>
+</view>
+
+
+
+<view>
+<image class='imagesize3 '  src="https://yanxuan.nosdn.127.net/75664feecdf43e8cb8f2a171fba35fef.png" bindtouchend='mytouchend' style='left:{{x}}px;top:{{y}}px;'bindtouchmove='move'   ></image>
+</view>
+
+<view>    
+<image class='imagesize3' src="https://yanxuan.nosdn.127.net/e992f1c96cc65d5e0d734425ae42e2b1.png" bindtouchend='mytouchend' style='left:{{x1}}px;top:{{y1}}px;'bindtouchmove='move1'></image>
+</view>
+
+<view>
+<image class='imagesize3' src="https://yanxuan.nosdn.127.net/caa859b1b6d5fe3be6b28c192daa62a7.png" bindtouchend='mytouchend' style='left:{{x2}}px;top:{{y2}}px;'bindtouchmove='move2'></image>
+</view>
+
+<view>
+<image class='imagesize3' src="https://yanxuan.nosdn.127.net/3f5f7032dbcad8d1b44319992d024a8d.png" bindtouchend='mytouchend' style='left:{{x3}}px;top:{{y3}}px;'bindtouchmove='move3'></image>
+</view>
+
+<view class='window_view'>
+<navigator url="/pages/44/44" open-type="redirect">
+<view bindtap="jishu">下一题</view>
+</navigator>
+</view>
+
+<view class='er-img1' bindtap="end">
+结束
+</view>
+<view class="er-img">{{timecount}}</view>
+
+
+
+
+
+
+
+
+
+

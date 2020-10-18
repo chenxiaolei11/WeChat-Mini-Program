@@ -1,0 +1,10 @@
+
+<view class= 'imagesize'>
+<navigator url="/pages/1/1" open-type="redirect">
+<button class="aaa">开始答题</button>
+</navigator>
+</view>
+
+
+
+

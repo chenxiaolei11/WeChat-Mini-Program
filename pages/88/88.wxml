@@ -1,0 +1,4 @@
+
+
+<view class='imagesize'>时间：{{t}}</view>
+<view class='imagesize'>分数：{{count}}</view>

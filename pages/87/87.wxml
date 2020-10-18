@@ -1,0 +1,66 @@
+<view class='imagesize1'>测试题80</view>
+
+<view class='imagesize'>
+<image src="https://yanxuan.nosdn.127.net/b66859cc2a251f5d888579b4760903c7.png"  bindload="imageLoad" data-index="{{ index }}" 
+style="width:{{ 250 }}px; height:{{ 170 }}px;"></image>
+</view>
+
+
+
+<view>
+<image class='imagesize2'  src="https://yanxuan.nosdn.127.net/8a2a3c700865da596af019c95e3b15cb.png" bindtouchend='mytouchend' style='left:{{x}}px;top:{{y}}px;'bindtouchmove='move'   ></image>
+</view>
+
+<view>    
+<image class='imagesize2' src="https://yanxuan.nosdn.127.net/093844242ccd02026d1e95cb429cb6f1.png" bindtouchend='mytouchend' style='left:{{x1}}px;top:{{y1}}px;'bindtouchmove='move1'></image>
+</view>
+
+<view>
+<image class='imagesize3' src="https://yanxuan.nosdn.127.net/62a8be351b018b26e19bf067533e42dd.png" bindtouchend='mytouchend' style='left:{{x2}}px;top:{{y2}}px;'bindtouchmove='move2'></image>
+</view>
+
+<view>
+<image class='imagesize2' src="https://yanxuan.nosdn.127.net/3ecdbedf666876cf6418ec8978172c33.png" bindtouchend='mytouchend' style='left:{{x3}}px;top:{{y3}}px;'bindtouchmove='move3'></image>
+</view>
+
+<view>
+<image class='imagesize2' src="https://yanxuan.nosdn.127.net/4dbbaeebbac1148904aa696ca8ce43f5.png" bindtouchend='mytouchend' style='left:{{x4}}px;top:{{y4}}px;'bindtouchmove='move4'></image>
+</view>
+
+<view>
+<image class='imagesize2' src="https://yanxuan.nosdn.127.net/47188d6824c948b2de1e8aea6a980890.png" bindtouchend='mytouchend' style='left:{{x5}}px;top:{{y5}}px;'bindtouchmove='move5'></image>
+</view>
+
+<view>
+<image class='imagesize4' src="https://yanxuan.nosdn.127.net/2d288febca45ca20f8251a2f8f747faf.png" bindtouchend='mytouchend' style='left:{{x6}}px;top:{{y6}}px;'bindtouchmove='move6'></image>
+</view>
+
+<view>
+<image class='imagesize2' src="https://yanxuan.nosdn.127.net/978595026f95d151ad67fa6fa0213201.png" bindtouchend='mytouchend' style='left:{{x7}}px;top:{{y7}}px;'bindtouchmove='move6'></image>
+</view>
+
+<view>
+<image class='imagesize2' src="https://yanxuan.nosdn.127.net/d76eda79fa3b137cf370b0da82675b26.png" bindtouchend='mytouchend' style='left:{{x8}}px;top:{{y8}}px;'bindtouchmove='move6'></image>
+</view>
+
+<view class='window_view'>
+<navigator url="/pages/88/88" open-type="redirect">
+<view bindtap="jishu">下一题</view>
+</navigator>
+</view>
+<view class='er-img1' bindtap="end">
+结束
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+<view class='imagesize1'>练习题1</view>
+
+
+<view class='imagesize'>
+<image  src="https://yanxuan.nosdn.127.net/2be3e5a94bdc59cfbb4a1b56c5158239.png"  bindload="imageLoad" data-index="{{ index }}" 
+style="width:{{ 480 }}rpx; height:{{ 320 }}rpx;"></image>
+</view>
+
+<view>    
+<image class='imagesize2' src="https://yanxuan.nosdn.127.net/6b6b1b8560b679a8e0dd51dcf8e92195.png" style='left:{{x1}}px;top:{{y1}}px;' bindtouchend='mytouchend' bindtouchmove='move1'></image>
+</view>
+
+
+
+<view class='window_view'>
+<navigator url="/pages/2/2" open-type="redirect">
+<view bindtap="jishu">下一题</view>
+</navigator>
+</view>
+
+<view class='er-img1' bindtap="end">
+结束
+</view>
+<view class="er-img">
+<label>{{timecount}}</label>
+</view>

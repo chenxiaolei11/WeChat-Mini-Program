@@ -1,0 +1,59 @@
+
+.imagesize{
+  display:flex;
+  height: 400px;                    
+  justify-content: center;        
+  align-items:center;            
+ }
+ .imagesize1{
+  display:flex;
+  height: 20px;                    
+  justify-content: center;        
+  align-items:center;               
+ }
+ .imagesize2{
+  position: absolute;
+ width: 94rpx;
+ height: 96rpx;                                 
+ }
+
+ 
+
+
+.er-img{
+  top: 0rpx;
+  position: absolute;
+  left: 0;
+}
+.window_view {
+  top: 0rpx;
+  position: absolute;
+  right: 0;
+}
+
+.Scancode {
+  font-size: 49rpx;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.er-img1{
+  top: 60rpx;
+  position: absolute;
+  left: 0;
+}
+.model2-timepiece {
+  border: 1px solid #2db7f5;
+  border-radius: 5px;
+  padding: 5px 6px;
+}
+.col-class-down {
+  text-align: center;
+}
+.header-model2 {
+  padding: 12px 8px;
+  position: relative;
+}

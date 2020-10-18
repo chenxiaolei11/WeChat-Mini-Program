@@ -1,0 +1,31 @@
+<view class='imagesize1'>练习题2</view>
+
+<view class='imagesize'>
+<image src="https://ae01.alicdn.com/kf/Haa38833b03bc4a28b94c8c5555786acei.jpg"  bindload="imageLoad" data-index="{{ index }}" 
+style="width:{{ 240 }}px; height:{{ 160 }}px;"></image>
+</view>
+
+
+
+<view>
+<image class='imagesize2 '  src="/image/2-2-2.png" style='left:{{x}}px;top:{{y}}px;'bindtouchmove='move' bindtouchend='mytouchend'   ></image>
+</view>
+
+<!--<view>    
+<image class='imagesize2' src="https://ae01.alicdn.com/kf/H8631f1da1b7b4887ac84d4cf9067c4c6l.jpg" style='left:{{x1}}px;top:{{y1}}px;'bindtouchmove='move1'></image>
+</view>-->
+
+<view>
+<image class='imagesize2' src="https://yanxuan.nosdn.127.net/6b6b1b8560b679a8e0dd51dcf8e92195.png" bindtouchend='mytouchend' style='left:{{x2}}px;top:{{y2}}px;'bindtouchmove='move2'></image>
+</view>
+
+<view class='window_view'>
+<navigator url="/pages/3/3" open-type="redirect">
+<view bindtap="jishu">下一题</view>
+</navigator>
+</view>
+
+<view class='er-img1' bindtap="end">
+结束
+</view>
+<view class="er-img">{{timecount}}</view>

@@ -1,0 +1,136 @@
+{
+  "pages": [
+    "pages/1/1",
+    "pages/89/89",
+    "pages/index/index",
+    "pages/21/21",
+    "pages/11/11",
+    "pages/88/88",
+    "pages/83/83",
+    "pages/80/80",
+    "pages/76/76",
+    "pages/73/73",
+    "pages/68/68",
+    "pages/63/63",
+    "pages/59/59",
+    "pages/54/54",
+    "pages/48/48",
+    "pages/46/46",
+    "pages/44/44",
+    "pages/41/41",
+    "pages/39/39",
+    "pages/36/36",
+    "pages/32/32",
+    "pages/29/29",
+    "pages/25/25",
+    
+    "pages/17/17",
+    "pages/14/14",
+    
+    "pages/8/8",
+    "pages/5/5",
+    
+    
+    
+    
+    "pages/27/27",
+    "pages/79/79",
+    "pages/74/74",
+    "pages/69/69",
+    "pages/64/64",
+    "pages/55/55",
+    
+    "pages/37/37",
+    "pages/28/28",
+    "pages/23/23",
+    "pages/18/18",
+    "pages/13/13",
+    
+    "pages/50/50",
+    
+    
+    "pages/31/31",
+    
+    "pages/35/35",
+    "pages/86/86",
+    "pages/51/51",
+    
+    "pages/57/57",
+    "pages/52/52",
+    "pages/12/12",
+    "pages/10/10",
+    
+    "pages/70/70",
+    
+    
+    "pages/77/77",
+    "pages/72/72",
+    
+    "pages/65/65",
+    "pages/66/66",
+    "pages/67/67",
+    "pages/71/71",
+    "pages/75/75",
+    
+    "pages/78/78",
+    "pages/81/81",
+    "pages/82/82",
+    "pages/84/84",
+    "pages/85/85",
+    "pages/87/87",
+    "pages/62/62",
+    "pages/58/58",
+    "pages/53/53",
+    
+    "pages/56/56",
+    
+    "pages/60/60",
+    "pages/61/61",
+    
+    "pages/45/45",
+    
+    "pages/38/38",
+    "pages/40/40",
+    "pages/42/42",
+    "pages/43/43",
+    
+    "pages/47/47",
+    "pages/49/49",
+    
+    
+    "pages/26/26",
+    "pages/20/20",
+    "pages/16/16",
+    
+    "pages/15/15",
+    
+    "pages/19/19",
+    
+    "pages/22/22",
+    "pages/24/24",
+    
+    "pages/30/30",
+    "pages/33/33",
+    "pages/34/34",
+    "pages/2/2",
+    "pages/3/3",
+    "pages/4/4",
+    
+    "pages/6/6",
+    "pages/7/7",
+    "pages/9/9",
+    "pages/logs/logs",
+    "utils/store"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wxf14a02ad16de7823"
+  ],
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
